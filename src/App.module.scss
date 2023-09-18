@@ -1,0 +1,184 @@
+.container {
+  max-width: 1400px;
+  margin: auto;
+  // padding-top: 16px;
+  // padding-bottom: 16px;
+  // background-color: aliceblue;
+  background-color: #faf8f7;
+}
+
+.signInButton {
+  border: none;
+  padding: 2px 30px;
+}
+
+.requestDemoButton {
+  border: 2px solid #273720;
+  border-radius: 8px;
+  background-color: #e6ff4c;
+  color: #4c5419;
+  font-weight: 700;
+  padding: 16px 32px;
+}
+
+body {
+  background-color: #faf8f7;
+}
+
+main {
+  background-color: plum;
+}
+
+.heroSection {
+  background-color: #faf8f7;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 0px 32px;
+    a {
+      font-size: 17px;
+    }
+  }
+}
+
+.hyperComplyLogo {
+  display: flex;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+// .heroContent {
+//   flex-direction: column;
+//   align-content: flex-start;
+//   display: inline-block;
+// }
+
+// .heroImageContainer {
+//   position: relative;
+
+//   img {
+//     max-width: 100%;
+//     vertical-align: middle;
+//     // display: inline-block;
+//     float: right;
+//     position: absolute;
+//   }
+// }
+
+// ~~~~~~~~~~~ Image is ok but text is too cramped
+
+// .heroBox {
+//   display: flex;
+//   align-items: center; /* Vertically center the content */
+//   justify-content: space-between; /* Create space between text and image */
+//   max-width: 1200px;
+//   margin: 100px 0px 100px 0px;
+// }
+
+// .heroContent {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .heroText {
+//   justify-content: left;
+//   // flex: 1;
+//   max-width: 100%;
+//   margin-right: 100px;
+// }
+
+// .heroImageContainer {
+//   margin-left: 80px;
+//   vertical-align: middle;
+//   display: inline-block;
+//   overflow-clip-margin: content-box;
+//   overflow: clip;
+//   position: relative;
+
+//   img {
+//     max-width: 100%;
+//   }
+// }
+
+// ~~~~~~~~~ text is okay but pic is too big
+
+// .heroBox {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+//   gap: 20px; /* Adjust the gap between columns */
+// }
+
+// .heroContent {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+// }
+
+// .heroImageContainer {
+//   // margin-left: 80px;
+//   // vertical-align: middle;
+//   // display: inline-block;
+//   // overflow-clip-margin: content-box;
+//   overflow: clip;
+//   position: relative;
+
+//   img {
+//     display: flex;
+//     // max-width: 100%;
+//     vertical-align: middle;
+//     display: inline-block;
+//   }
+// }
+
+/* styles.module.css */
+
+/* Style for the parent container */
+.heroContentContainer {
+  display: flex;
+  justify-content: space-between; /* Create space between columns */
+  align-items: flex-start; /* Align items at the top of each column */
+}
+
+/* Style for the text column */
+.heroText {
+  flex: 1; /* Allow text to grow and take available space */
+  padding: 100px 0;
+}
+
+.heroText > h1 {
+  font-size: 40px;
+  color: #4c5419;
+}
+
+.heroText > p {
+  font-size: 19px;
+  color: #4c5419;
+}
+
+/* Style for the image column */
+.heroImageContainer {
+  max-width: 50%;
+  padding: 30px 0;
+}
+
+/* Style for the image within the image column */
+.heroImage {
+  width: 100%;
+  height: auto;
+}
