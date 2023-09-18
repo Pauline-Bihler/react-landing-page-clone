@@ -16,15 +16,15 @@ Rebuild it in React (looking at the code as little as possible).
 
 ## Resources used:
 
-# Libraries used:
+## Libraries used:
 
 - https://www.npmjs.com/package/sass
 
-# Font used:
+## Font used:
 
 https://fonts.google.com/specimen/Open+Sans
 
-# Sites used for Css layout:
+## Sites used for Css layout:
 
 - https://www.w3schools.com/css/css_align.asp
 - https://www.studytonight.com/css-howtos/how-to-create-a-2column-layout-grid-with-css
