@@ -50,17 +50,55 @@ nav {
   }
 }
 
+// FIX TOM
 .hyperComplyLogo {
   display: flex;
   max-width: 100%;
   vertical-align: middle;
-  display: inline-block;
+  // display: inline-block;
 }
 
 .linksContainer {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+/* styles.module.css */
+
+/* Style for the parent container */
+.heroContentContainer {
+  display: flex;
+  justify-content: space-between; /* Create space between columns */
+  align-items: flex-start; /* Align items at the top of each column */
+}
+
+/* Style for the text column */
+.heroText {
+  flex: 1; /* Allow text to grow and take available space */
+  padding: 100px 0;
+}
+
+.heroText > h1 {
+  font-size: 40px;
+  color: #4c5419;
+}
+
+.heroText > p {
+  font-size: 19px;
+  color: #4c5419;
+}
+
+/* Style for the image column */
+.heroImageContainer {
+  max-width: 50%;
+  padding: 30px 0;
+}
+
+/* Style for the image within the image column */
+.heroImage {
+  width: 100%;
+  height: auto;
 }
 
 // .heroContent {
@@ -145,40 +183,3 @@ nav {
 //     display: inline-block;
 //   }
 // }
-
-/* styles.module.css */
-
-/* Style for the parent container */
-.heroContentContainer {
-  display: flex;
-  justify-content: space-between; /* Create space between columns */
-  align-items: flex-start; /* Align items at the top of each column */
-}
-
-/* Style for the text column */
-.heroText {
-  flex: 1; /* Allow text to grow and take available space */
-  padding: 100px 0;
-}
-
-.heroText > h1 {
-  font-size: 40px;
-  color: #4c5419;
-}
-
-.heroText > p {
-  font-size: 19px;
-  color: #4c5419;
-}
-
-/* Style for the image column */
-.heroImageContainer {
-  max-width: 50%;
-  padding: 30px 0;
-}
-
-/* Style for the image within the image column */
-.heroImage {
-  width: 100%;
-  height: auto;
-}
