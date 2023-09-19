@@ -50,7 +50,6 @@ nav {
   }
 }
 
-// FIX TOM
 .hyperComplyLogo {
   display: flex;
   max-width: 100%;
@@ -99,6 +98,39 @@ nav {
 .heroImage {
   width: 100%;
   height: auto;
+}
+
+.sectionThreeTexts {
+  background-color: #faf8f7;
+  color: #273720;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionThreeAllCaps {
+  font-weight: 300px;
+  font-size: 20px;
+}
+
+.sectionThreeBigHeader {
+  font-weight: 400;
+  font-size: 80px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.learnMoreButton {
+  // border: 2px solid #273720;
+  border-radius: 8px;
+  background-color: #46643e;
+  color: #fff;
+  font-weight: 400;
+  padding: 16px 32px;
+
+  &:hover {
+    background-color: #749d68;
+  }
 }
 
 // .heroContent {

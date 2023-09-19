@@ -98,7 +98,25 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section>Section 2</section>
+        <section>Logos with animation</section>
+        <section>
+          <div className={styles.sectionThreeTexts}>
+            <span className={styles.sectionThreeAllCaps}>
+              FOR SALES TEAMS AT STARTUP COMPANIES
+            </span>
+            <h2 className={styles.sectionThreeBigHeader}>Close deals faster</h2>
+            <a href="/#" className={styles.learnMoreButton}>
+              Learn More
+            </a>
+            <p>
+              Don't let security reviews slow you down. We help you deflect or
+              automate security questionnaires in 1 day, guaranteed.
+            </p>
+          </div>
+        </section>
+        <section>
+          <div></div>
+        </section>
       </main>
       <footer>Footer</footer>
     </>
