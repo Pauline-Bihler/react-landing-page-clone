@@ -37,36 +37,6 @@ export default function App() {
                   </div>
                 </nav>
               </header>
-              {/* <div className={styles.heroBox}>
-                <div className={styles.heroContent}>
-                  <div className={styles.heroText}>
-                    <h1>
-                      Stop wasting
-                      <br />
-                      time on security questionnaires
-                    </h1>
-                    <p>
-                      HyperComply is the easiest way for InfoSec and Sales
-                      leaders to share compliance information, automate security
-                      questionnaires, and accelerate sales.
-                    </p>
-                    <a href="/#" className={styles.requestDemoButton}>
-                      Request a Demo
-                    </a>
-                  </div>
-                  <div>
-                    <a href="/#" className={styles.requestDemoButton}>
-                      Request a Demo
-                    </a>
-                  </div>
-                  <div className={styles.heroImageContainer}>
-                    <img
-                      src="/applicationinterface.png"
-                      alt="hero header pic"
-                    />
-                  </div>
-                </div>
-              </div> */}
               <div className={styles.heroContentContainer}>
                 {/* Text Column */}
                 <div className={styles.heroText}>
@@ -98,13 +68,13 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section>Logos with animation section 2</section>
+        {/* <section>Logos with animation section 2</section> */}
         <section>
-          <div className={styles.sectionThreeTexts}>
-            <span className={styles.sectionThreeAllCaps}>
+          <div className={styles.sectionTexts}>
+            <span className={styles.sectionAllCaps}>
               FOR SALES TEAMS AT STARTUP COMPANIES
             </span>
-            <h2 className={styles.sectionThreeBigHeader}>Close deals faster</h2>
+            <h2 className={styles.sectionBigHeader}>Close deals faster</h2>
             <a href="/#" className={styles.learnMoreButton}>
               Learn More
             </a>
@@ -182,13 +152,11 @@ export default function App() {
         <br />
         <section>
           {' '}
-          <div className={styles.sectionThreeTexts}>
-            <span className={styles.sectionThreeAllCaps}>
+          <div className={styles.sectionTexts}>
+            <span className={styles.sectionAllCaps}>
               FOR SECURITY TEAMS WITH SOC 2 CERTIFICATION
             </span>
-            <h2 className={styles.sectionThreeBigHeader}>
-              Easy vendor reviews
-            </h2>
+            <h2 className={styles.sectionBigHeader}>Easy vendor reviews</h2>
             <p>
               HyperComply makes it easy to send security questionnaires to new
               vendors and monitor your network of tools over time.
@@ -260,11 +228,11 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section>Customer reviews</section>
+        {/* <section>Customer reviews</section> */}
         <section>
           {' '}
           <div className={styles.sectionEightTexts}>
-            <h2 className={styles.sectionThreeBigHeader}>
+            <h2 className={styles.sectionBigHeader}>
               Everything you need to get <br /> security reviews done fast and{' '}
               <br />
               done right
@@ -275,8 +243,37 @@ export default function App() {
           </div>
         </section>
       </main>
-      <br />
-      <footer>Footer</footer>
+      <footer>
+        <nav>
+          <a href="/#" className={styles.hyperComplyLogo}>
+            <Logo />
+          </a>
+          <ul>
+            <li>Legal</li>
+            <li>
+              <a href="/#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="/#">Trust Page</a>
+            </li>
+          </ul>
+          <ul>
+            <li>Contract</li>
+            <li>
+              <a href="/#">Email us</a>
+            </li>
+            <li>
+              <a href="/#">Support</a>
+            </li>
+          </ul>
+          <ul>
+            <li>About</li>
+            <li>
+              <a href="/#">Company</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
     </>
   );
 }

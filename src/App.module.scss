@@ -1,9 +1,6 @@
 .container {
   max-width: 1400px;
   margin: auto;
-  // padding-top: 16px;
-  // padding-bottom: 16px;
-  // background-color: aliceblue;
   background-color: #faf8f7;
 }
 
@@ -26,7 +23,7 @@ body {
 }
 
 main {
-  background-color: plum;
+  background-color: #faf8f7;
 }
 
 .heroSection {
@@ -63,9 +60,6 @@ nav {
   gap: 20px;
 }
 
-/* styles.module.css */
-
-/* Style for the parent container */
 .heroContentContainer {
   display: flex;
   justify-content: space-between; /* Create space between columns */
@@ -100,7 +94,7 @@ nav {
   height: auto;
 }
 
-.sectionThreeTexts {
+.sectionTexts {
   background-color: #faf8f7;
   color: #273720;
   display: flex;
@@ -108,12 +102,12 @@ nav {
   align-items: center;
 }
 
-.sectionThreeAllCaps {
+.sectionAllCaps {
   font-weight: 300px;
   font-size: 20px;
 }
 
-.sectionThreeBigHeader {
+.sectionBigHeader {
   font-weight: 400;
   font-size: 80px;
   margin-top: 5px;
@@ -133,9 +127,6 @@ nav {
   }
 }
 
-// ~~~~~~
-/* YourCSSModule.module.css */
-
 /* Container for the entire layout */
 .heroTextSecFour {
   display: flex;
@@ -154,28 +145,26 @@ nav {
 .SecFourRow {
   display: flex;
   flex-direction: row;
-  gap: 20px; /* Adjust the gap between columns */
+  gap: 20px;
 }
 
 /* Column for text content */
 .SecFourTextColumn {
-  flex: 1; /* Take up available space */
+  flex: 1;
 }
 
 /* Column for images */
 .SecFourImageColumn {
-  flex: 1; /* Take up available space */
+  flex: 1;
   max-width: 50%;
   padding: 30px 0;
 }
 
-/* Your header text styles */
 .SecFourHeaderOne {
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-/* Your image styles */
 .SecFourImgOne,
 .SecFourImgTwo,
 .SecFourImgThree {
@@ -203,97 +192,40 @@ nav {
     text-align: center;
   }
 }
+
 footer {
   background-color: #273720;
+  color: #fff;
+  padding: 20px;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
-// .SecFourImgTwo {
-//   max-height: 50%;
-//   max-width: auto;
-//   border-radius: 10px;
-//   box-shadow: 0 12px 27px rgba(0, 0, 0, 0.1),
-//     -35px 35px 49px rgba(0, 0, 0, 0.09), 78px 78px 66px rgba(0, 0, 0, 0.05);
-// }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+}
 
-// .heroContent {
-//   flex-direction: column;
-//   align-content: flex-start;
-//   display: inline-block;
-// }
+li {
+  margin-bottom: 10px;
+}
 
-// .heroImageContainer {
-//   position: relative;
+li:first-child {
+  font-weight: bold;
+}
 
-//   img {
-//     max-width: 100%;
-//     vertical-align: middle;
-//     // display: inline-block;
-//     float: right;
-//     position: absolute;
-//   }
-// }
+a {
+  text-decoration: none;
+  color: #fff;
+}
 
-// ~~~~~~~~~~~ Image is ok but text is too cramped
-
-// .heroBox {
-//   display: flex;
-//   align-items: center; /* Vertically center the content */
-//   justify-content: space-between; /* Create space between text and image */
-//   max-width: 1200px;
-//   margin: 100px 0px 100px 0px;
-// }
-
-// .heroContent {
-//   display: flex;
-//   align-items: center;
-// }
-
-// .heroText {
-//   justify-content: left;
-//   // flex: 1;
-//   max-width: 100%;
-//   margin-right: 100px;
-// }
-
-// .heroImageContainer {
-//   margin-left: 80px;
-//   vertical-align: middle;
-//   display: inline-block;
-//   overflow-clip-margin: content-box;
-//   overflow: clip;
-//   position: relative;
-
-//   img {
-//     max-width: 100%;
-//   }
-// }
-
-// ~~~~~~~~~ text is okay but pic is too big
-
-// .heroBox {
-//   display: grid;
-//   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-//   gap: 20px; /* Adjust the gap between columns */
-// }
-
-// .heroContent {
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-// }
-
-// .heroImageContainer {
-//   // margin-left: 80px;
-//   // vertical-align: middle;
-//   // display: inline-block;
-//   // overflow-clip-margin: content-box;
-//   overflow: clip;
-//   position: relative;
-
-//   img {
-//     display: flex;
-//     // max-width: 100%;
-//     vertical-align: middle;
-//     display: inline-block;
-//   }
-// }
+a:hover {
+  color: #e6ff4c;
+}
